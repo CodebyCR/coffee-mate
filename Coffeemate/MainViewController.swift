@@ -13,15 +13,20 @@ class MainViewController: UIViewController {
 
         // Set Title
         title = "Coffee Mate"
-        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.brown,
-             .font: UIFont.systemFont(ofSize: 24, weight: .bold)]
+        navigationController?.navigationBar.titleTextAttributes = [
+            .foregroundColor: UIColor.brown,
+            .font: UIFont.systemFont(ofSize: 24, weight: .bold),
+        ]
 
+        let scrollView = UIScrollView()
+        scrollView.frame = view.frame
+        view.addSubview(scrollView)
 
         let coffeeTable = CoffeeTableView()
         coffeeTable.view.frame = CGRect(x: 0, y: 120, width: view.frame.width, height: view.frame.height - 140)
 //        coffeeTable.view.layer.borderColor = UIColor.brown.cgColor
 //        coffeeTable.view.layer.borderWidth = 1
-        view.addSubview(coffeeTable.view)
+        scrollView.addSubview(coffeeTable.view)
     }
 
     private func getTitle() -> UILabel {
