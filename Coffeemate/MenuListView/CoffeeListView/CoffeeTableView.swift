@@ -23,15 +23,16 @@ class CoffeeTableView: UIViewController {
         super.viewDidLoad()
 
         // coffeeTable.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(coffeeTable)
-        coffeeTable.rowHeight = 60
-        coffeeTable.separatorStyle = .none
-        coffeeTable.backgroundColor = .systemGray6
 
+        coffeeTable.rowHeight = 80
+        coffeeTable.separatorStyle = .none
+//        coffeeTable.backgroundColor = .systemGray6
         coffeeTable.delegate = self
         coffeeTable.dataSource = self
         coffeeTable.register(CoffeeTableViewCell.self, forCellReuseIdentifier: cellIdentifier)
         coffeeTable.translatesAutoresizingMaskIntoConstraints = false
+        coffeeTable.separatorStyle = .none
+        view.addSubview(coffeeTable)
 
         NSLayoutConstraint.activate([
             coffeeTable.leadingAnchor.constraint(equalTo: view.leadingAnchor),
