@@ -25,10 +25,7 @@ class MainViewController: UIViewController {
 
         // NavigationsBar-Titel
         title = "Coffee Mate"
-        navigationController?.navigationBar.titleTextAttributes = [
-            .foregroundColor: UIColor.brown,
-            .font: UIFont.systemFont(ofSize: 24, weight: .bold)
-        ]
+        setUpHeaderLabel(for: navigationController?.navigationBar)
 
         // Setup der View-Hierarchie
         view.addSubview(scrollView)
@@ -37,8 +34,6 @@ class MainViewController: UIViewController {
         addChild(coffeeTableView)
         scrollView.addSubview(coffeeTableView.view)
         coffeeTableView.didMove(toParent: self)
-
-
 
         // Auto Layout Constraints
         NSLayoutConstraint.activate([
@@ -54,7 +49,7 @@ class MainViewController: UIViewController {
 //            coffeeTableView.view.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
 //            coffeeTableView.view.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
 //            coffeeTableView.view.widthAnchor.constraint(equalTo: scrollView.widthAnchor)
-            coffeeTableView.view.topAnchor.constraint(equalTo: view.topAnchor, constant: 110),
+            coffeeTableView.view.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
             coffeeTableView.view.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
             coffeeTableView.view.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
             coffeeTableView.view.heightAnchor.constraint(equalToConstant: 500) // Feste Höhe
@@ -62,6 +57,28 @@ class MainViewController: UIViewController {
 
         // Deaktiviere Autoresizing-Maske
         coffeeTableView.view.translatesAutoresizingMaskIntoConstraints = false
+    }
+
+    fileprivate func setUpHeaderLabel(for navigationBar: UINavigationBar?) {
+        guard let navigationBar else {
+            #if DEBUG
+                print("NavigationBar is nil")
+            #endif
+            return
+        }
+
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .brown
+        appearance.titleTextAttributes = [
+            .foregroundColor: UIColor.white,
+            .font: UIFont.systemFont(ofSize: 24, weight: .bold)
+        ]
+
+        navigationBar.standardAppearance = appearance
+        navigationBar.compactAppearance = appearance
+        navigationBar.scrollEdgeAppearance = appearance
+        navigationBar.prefersLargeTitles = false
     }
 }
 
