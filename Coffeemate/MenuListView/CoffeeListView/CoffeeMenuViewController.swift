@@ -42,7 +42,7 @@ class CoffeeMenuViewController: UIViewController {
             coffeeTableView.view.topAnchor.constraint(equalTo: view.topAnchor),
             coffeeTableView.view.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
             coffeeTableView.view.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
-            coffeeTableView.view.heightAnchor.constraint(equalToConstant: 500) // Feste Höhe
+            coffeeTableView.view.heightAnchor.constraint(equalToConstant: 600) // Feste Höhe
         ])
 
         // Deaktiviere Autoresizing-Maske

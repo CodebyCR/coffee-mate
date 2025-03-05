@@ -17,7 +17,7 @@ class MenuViewController: UIViewController {
         view.backgroundColor = .white
 
         // NavigationsBar-Titel
-        title = "Coffee Mate"
+        title = "Menu"
         setUpHeaderLabel(for: navigationController?.navigationBar)
 
         // Füge CoffeeMenuViewController als Kindview hinzu

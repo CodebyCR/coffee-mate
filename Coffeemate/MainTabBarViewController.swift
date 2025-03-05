@@ -15,16 +15,6 @@ class MainTabBarViewController: UITabBarController {
         // Do any additional setup after loading the view.
     }
 
-    /*
-     // MARK: - Navigation
-
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         // Get the new view controller using segue.destination.
-         // Pass the selected object to the new view controller.
-     }
-     */
-
     fileprivate func setupTabBar() {
         // OrderList Item
         let ordersViewController = OrderListViewController()
@@ -33,8 +23,8 @@ class MainTabBarViewController: UITabBarController {
 
         // Menu Item
         let menuViewController = MenuViewController()
-        menuViewController.title = "Menu"
         menuViewController.tabBarItem = UITabBarItem(title: "Menu", image: UIImage(systemName: "list.bullet"), tag: 1)
+
 
         // Cart Item
         let cartViewController = CartListViewController()
@@ -46,6 +36,9 @@ class MainTabBarViewController: UITabBarController {
             UINavigationController(rootViewController: menuViewController),
             UINavigationController(rootViewController: cartViewController),
         ], animated: true)
+
+        // title height
+        self.viewControllers?.forEach { $0.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 8) }
 
         // color of selected tab
         self.tabBar.tintColor = .brown
