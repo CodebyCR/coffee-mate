@@ -15,4 +15,4 @@
 
 ### Assets
 
-![[Pasted image 20250316192244.png]]
+![https://github.com/CodebyCR/coffee-mate/blob/main/Pasted%20image%2020250316192244.png]
