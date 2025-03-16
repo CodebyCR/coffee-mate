@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8E43F2732D87509B0051D32B /* ReadME.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E43F2722D8750860051D32B /* ReadME.md */; };
+		8E43F2772D8751300051D32B /* Pasted image 20250316192244.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E43F2762D8751300051D32B /* Pasted image 20250316192244.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8EFF1CBD2D70F61B00BEA550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E43F2722D8750860051D32B /* ReadME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadME.md; sourceTree = "<group>"; };
+		8E43F2762D8751300051D32B /* Pasted image 20250316192244.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pasted image 20250316192244.png"; sourceTree = "<group>"; };
 		8EFF1CA62D70F61800BEA550 /* Coffeemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffeemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFF1CBC2D70F61B00BEA550 /* CoffeemateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeemateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFF1CC62D70F61B00BEA550 /* CoffeemateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeemateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +95,8 @@
 		8EFF1C9D2D70F61700BEA550 = {
 			isa = PBXGroup;
 			children = (
+				8E43F2762D8751300051D32B /* Pasted image 20250316192244.png */,
+				8E43F2722D8750860051D32B /* ReadME.md */,
 				8EFF1CA82D70F61800BEA550 /* Coffeemate */,
 				8EFF1CBF2D70F61B00BEA550 /* CoffeemateTests */,
 				8EFF1CC92D70F61B00BEA550 /* CoffeemateUITests */,
@@ -225,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E43F2732D87509B0051D32B /* ReadME.md in Resources */,
+				8E43F2772D8751300051D32B /* Pasted image 20250316192244.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
