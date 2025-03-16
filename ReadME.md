@@ -9,9 +9,10 @@
  - UI Kit
  - Swift Testing
 
-### Links
+### See also
 
-- [GitHub (Coffee Mate)]()
+- [GitHub (Coffee Lover)](https://github.com/CodebyCR/Coffee-Lover)
+- [GitHub (Coffe API)](https://github.com/CodebyCR/Coffee-API)
 
 ### Assets
 
