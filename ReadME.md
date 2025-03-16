@@ -15,4 +15,4 @@
 
 ### Assets
 
-![https://github.com/CodebyCR/coffee-mate/blob/main/Pasted%20image%2020250316192244.png]
+![Coffee Mate Preview](https://github.com/CodebyCR/coffee-mate/blob/main/Pasted%20image%2020250316192244.png)
