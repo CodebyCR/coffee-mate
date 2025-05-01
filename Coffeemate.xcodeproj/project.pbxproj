@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251585D670E7EBA0B0AB5DEA /* Pods_Coffeemate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C79809F6F0FC9FF0AFFA36C /* Pods_Coffeemate.framework */; };
+		52C439F744E818CB9078E89E /* Pods_CoffeemateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66331E00655C596D0F3B75ED /* Pods_CoffeemateTests.framework */; };
 		8E43F2732D87509B0051D32B /* ReadME.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E43F2722D8750860051D32B /* ReadME.md */; };
 		8E43F2772D8751300051D32B /* Pasted image 20250316192244.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E43F2762D8751300051D32B /* Pasted image 20250316192244.png */; };
+		8E55D7622DB3FA8600C1D84A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E55D7612DB3FA6400C1D84A /* Podfile */; };
+		CE03A1F5B2AB0EAFACCC1855 /* Pods_Coffeemate_CoffeemateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E48DCAA7A8BABD19AF64128 /* Pods_Coffeemate_CoffeemateUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +33,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20650DF836C76B798BBE82C8 /* Pods-CoffeemateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeemateTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeemateTests/Pods-CoffeemateTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E48DCAA7A8BABD19AF64128 /* Pods_Coffeemate_CoffeemateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffeemate_CoffeemateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384B5921656427F1E51B03D7 /* Pods-Coffeemate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffeemate.release.xcconfig"; path = "Target Support Files/Pods-Coffeemate/Pods-Coffeemate.release.xcconfig"; sourceTree = "<group>"; };
+		413519A66D442CDAE97C88AB /* Pods-Coffeemate-CoffeemateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffeemate-CoffeemateUITests.debug.xcconfig"; path = "Target Support Files/Pods-Coffeemate-CoffeemateUITests/Pods-Coffeemate-CoffeemateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D2B0A770FE51B7689B3A5DD /* Pods-Coffeemate-CoffeemateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffeemate-CoffeemateUITests.release.xcconfig"; path = "Target Support Files/Pods-Coffeemate-CoffeemateUITests/Pods-Coffeemate-CoffeemateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66331E00655C596D0F3B75ED /* Pods_CoffeemateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeemateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C79809F6F0FC9FF0AFFA36C /* Pods_Coffeemate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffeemate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E43F2722D8750860051D32B /* ReadME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadME.md; sourceTree = "<group>"; };
 		8E43F2762D8751300051D32B /* Pasted image 20250316192244.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pasted image 20250316192244.png"; sourceTree = "<group>"; };
+		8E55D7612DB3FA6400C1D84A /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8EFF1CA62D70F61800BEA550 /* Coffeemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffeemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFF1CBC2D70F61B00BEA550 /* CoffeemateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeemateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFF1CC62D70F61B00BEA550 /* CoffeemateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeemateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB8F2712B19F5066E24503E /* Pods-Coffeemate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffeemate.debug.xcconfig"; path = "Target Support Files/Pods-Coffeemate/Pods-Coffeemate.debug.xcconfig"; sourceTree = "<group>"; };
+		D966845754CC15FC42FC4961 /* Pods-CoffeemateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeemateTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeemateTests/Pods-CoffeemateTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251585D670E7EBA0B0AB5DEA /* Pods_Coffeemate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C439F744E818CB9078E89E /* Pods_CoffeemateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,21 +102,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE03A1F5B2AB0EAFACCC1855 /* Pods_Coffeemate_CoffeemateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14797FB7593F61FF887AC5AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEB8F2712B19F5066E24503E /* Pods-Coffeemate.debug.xcconfig */,
+				384B5921656427F1E51B03D7 /* Pods-Coffeemate.release.xcconfig */,
+				413519A66D442CDAE97C88AB /* Pods-Coffeemate-CoffeemateUITests.debug.xcconfig */,
+				5D2B0A770FE51B7689B3A5DD /* Pods-Coffeemate-CoffeemateUITests.release.xcconfig */,
+				D966845754CC15FC42FC4961 /* Pods-CoffeemateTests.debug.xcconfig */,
+				20650DF836C76B798BBE82C8 /* Pods-CoffeemateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8EFF1C9D2D70F61700BEA550 = {
 			isa = PBXGroup;
 			children = (
+				8E55D7612DB3FA6400C1D84A /* Podfile */,
 				8E43F2762D8751300051D32B /* Pasted image 20250316192244.png */,
 				8E43F2722D8750860051D32B /* ReadME.md */,
 				8EFF1CA82D70F61800BEA550 /* Coffeemate */,
 				8EFF1CBF2D70F61B00BEA550 /* CoffeemateTests */,
 				8EFF1CC92D70F61B00BEA550 /* CoffeemateUITests */,
 				8EFF1CA72D70F61800BEA550 /* Products */,
+				14797FB7593F61FF887AC5AA /* Pods */,
+				BB5F77D512C20AB9254CFCA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +147,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BB5F77D512C20AB9254CFCA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C79809F6F0FC9FF0AFFA36C /* Pods_Coffeemate.framework */,
+				2E48DCAA7A8BABD19AF64128 /* Pods_Coffeemate_CoffeemateUITests.framework */,
+				66331E00655C596D0F3B75ED /* Pods_CoffeemateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFF1CCF2D70F61B00BEA550 /* Build configuration list for PBXNativeTarget "Coffeemate" */;
 			buildPhases = (
+				79988619B1978E9F4053D4F6 /* [CP] Check Pods Manifest.lock */,
 				8EFF1CA22D70F61800BEA550 /* Sources */,
 				8EFF1CA32D70F61800BEA550 /* Frameworks */,
 				8EFF1CA42D70F61800BEA550 /* Resources */,
@@ -133,8 +177,6 @@
 				8EFF1CA82D70F61800BEA550 /* Coffeemate */,
 			);
 			name = Coffeemate;
-			packageProductDependencies = (
-			);
 			productName = Coffeemate;
 			productReference = 8EFF1CA62D70F61800BEA550 /* Coffeemate.app */;
 			productType = "com.apple.product-type.application";
@@ -143,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFF1CD42D70F61B00BEA550 /* Build configuration list for PBXNativeTarget "CoffeemateTests" */;
 			buildPhases = (
+				834174702EC67034D1FED048 /* [CP] Check Pods Manifest.lock */,
 				8EFF1CB82D70F61B00BEA550 /* Sources */,
 				8EFF1CB92D70F61B00BEA550 /* Frameworks */,
 				8EFF1CBA2D70F61B00BEA550 /* Resources */,
+				03ADCF44640B053D90F16931 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,8 +200,6 @@
 				8EFF1CBF2D70F61B00BEA550 /* CoffeemateTests */,
 			);
 			name = CoffeemateTests;
-			packageProductDependencies = (
-			);
 			productName = CoffeemateTests;
 			productReference = 8EFF1CBC2D70F61B00BEA550 /* CoffeemateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -166,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFF1CD72D70F61B00BEA550 /* Build configuration list for PBXNativeTarget "CoffeemateUITests" */;
 			buildPhases = (
+				47862305B9C5D946827C35BF /* [CP] Check Pods Manifest.lock */,
 				8EFF1CC22D70F61B00BEA550 /* Sources */,
 				8EFF1CC32D70F61B00BEA550 /* Frameworks */,
 				8EFF1CC42D70F61B00BEA550 /* Resources */,
+				CC023D5A0117C4A31481E9B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,8 +223,6 @@
 				8EFF1CC92D70F61B00BEA550 /* CoffeemateUITests */,
 			);
 			name = CoffeemateUITests;
-			packageProductDependencies = (
-			);
 			productName = CoffeemateUITests;
 			productReference = 8EFF1CC62D70F61B00BEA550 /* CoffeemateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -193,7 +235,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					8EFF1CA52D70F61800BEA550 = {
 						CreatedOnToolsVersion = 16.2;
@@ -236,6 +278,7 @@
 			files = (
 				8E43F2732D87509B0051D32B /* ReadME.md in Resources */,
 				8E43F2772D8751300051D32B /* Pasted image 20250316192244.png in Resources */,
+				8E55D7622DB3FA8600C1D84A /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +297,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03ADCF44640B053D90F16931 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeemateTests/Pods-CoffeemateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeemateTests/Pods-CoffeemateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeemateTests/Pods-CoffeemateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47862305B9C5D946827C35BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffeemate-CoffeemateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79988619B1978E9F4053D4F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffeemate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834174702EC67034D1FED048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeemateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC023D5A0117C4A31481E9B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffeemate-CoffeemateUITests/Pods-Coffeemate-CoffeemateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffeemate-CoffeemateUITests/Pods-Coffeemate-CoffeemateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffeemate-CoffeemateUITests/Pods-Coffeemate-CoffeemateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EFF1CA22D70F61800BEA550 /* Sources */ = {
@@ -295,11 +449,13 @@
 /* Begin XCBuildConfiguration section */
 		8EFF1CD02D70F61B00BEA550 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB8F2712B19F5066E24503E /* Pods-Coffeemate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Coffeemate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,11 +477,13 @@
 		};
 		8EFF1CD12D70F61B00BEA550 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384B5921656427F1E51B03D7 /* Pods-Coffeemate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Coffeemate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -380,6 +538,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GP8J64YJ37;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -405,6 +564,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
 			};
 			name = Debug;
 		};
@@ -443,6 +603,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GP8J64YJ37;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -460,16 +621,20 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = targeted;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		8EFF1CD52D70F61B00BEA550 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D966845754CC15FC42FC4961 /* Pods-CoffeemateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -484,10 +649,13 @@
 		};
 		8EFF1CD62D70F61B00BEA550 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20650DF836C76B798BBE82C8 /* Pods-CoffeemateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -502,9 +670,11 @@
 		};
 		8EFF1CD82D70F61B00BEA550 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413519A66D442CDAE97C88AB /* Pods-Coffeemate-CoffeemateUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CodebyCR.CoffeemateUITests;
@@ -518,9 +688,11 @@
 		};
 		8EFF1CD92D70F61B00BEA550 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2B0A770FE51B7689B3A5DD /* Pods-Coffeemate-CoffeemateUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CodebyCR.CoffeemateUITests;
