@@ -10,6 +10,7 @@ import UIKit
 class CoffeeMenuViewController: UIViewController {
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
+        scrollView.backgroundColor = .white
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.showsVerticalScrollIndicator = false
         return scrollView

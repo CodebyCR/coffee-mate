@@ -10,6 +10,7 @@ import UIKit
 class MainTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         self.setupTabBar()
 
         // Do any additional setup after loading the view.
@@ -24,7 +25,6 @@ class MainTabBarViewController: UITabBarController {
         // Menu Item
         let menuViewController = MenuViewController()
         menuViewController.tabBarItem = UITabBarItem(title: "Menu", image: UIImage(systemName: "list.bullet"), tag: 1)
-
 
         // Cart Item
         let cartViewController = CartListViewController()

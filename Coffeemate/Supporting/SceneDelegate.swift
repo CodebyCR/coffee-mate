@@ -51,6 +51,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 
 
-#Preview(""){
+#Preview("MainTabBarViewController"){
     UINavigationController(rootViewController: MainTabBarViewController())
 }

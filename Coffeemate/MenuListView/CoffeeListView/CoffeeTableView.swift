@@ -21,9 +21,10 @@ class CoffeeTableView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
 
         // coffeeTable.translatesAutoresizingMaskIntoConstraints = false
-
+        coffeeTable.backgroundColor = .white
         coffeeTable.rowHeight = 80
         coffeeTable.separatorStyle = .none
 //        coffeeTable.backgroundColor = .systemGray6
